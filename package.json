@@ -5,8 +5,8 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Prueba ejecucion Sprit\" && exit 1",
-        "format": "npx prettier --write ."
-
+        "format": "npx prettier --write .",
+        "prepare": "husky install"
     },
     "repository": {
         "type": "git",
@@ -19,6 +19,7 @@
     },
     "homepage": "https://github.com/pdelaroche/proyecto1#readme",
     "devDependencies": {
+        "husky": "7.0.4",
         "prettier": "2.6.2"
     }
 }
