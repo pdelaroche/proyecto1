@@ -1,25 +1,29 @@
 {
-    "name": "proyecto1",
-    "version": "1.0.0",
-    "description": "",
-    "main": "index.js",
-    "scripts": {
-        "test": "echo \"Prueba ejecucion Sprit\" && exit 1",
-        "format": "npx prettier --write .",
-        "prepare": "husky install"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/pdelaroche/proyecto1.git"
-    },
-    "author": "Pablo",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/pdelaroche/proyecto1/issues"
-    },
-    "homepage": "https://github.com/pdelaroche/proyecto1#readme",
-    "devDependencies": {
-        "husky": "7.0.4",
-        "prettier": "2.6.2"
-    }
+  "name": "proyecto1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Prueba ejecucion Sprit\" && exit 1",
+    "format": "npx prettier --write .",
+    "prepare": "husky install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pdelaroche/proyecto1.git"
+  },
+  "author": "Pablo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pdelaroche/proyecto1/issues"
+  },
+  "homepage": "https://github.com/pdelaroche/proyecto1#readme",
+  "devDependencies": {
+    "husky": "7.0.4",
+    "lint-staged": "^12.4.0",
+    "prettier": "2.6.2"
+  },
+  "lint-staged": {
+    "*.{js,css,html,json}": "prettier --write"
+  }
 }
