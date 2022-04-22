@@ -1,0 +1,7 @@
+.prettierrc.json
+img
+node_modules
+.gitignore
+package-lock.json
+README.md
+.prettierignore
